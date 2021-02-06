@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel='stylesheet' href="style.css">
+</head>
+<body>
+
+<div class="main">
+	<div class="field">
+		<p id="field">0</p>
+	</div>
+	<div class="numbers">
+		<button onClick="clean()">AC</button>
+		<button>+/-</button>
+		<button onClick="percentage()">%</button>
+		<button class="right" id="division" onClick="operation(this);">/</button><br>
+		<button onClick="fillField('7')">7</button>
+		<button onClick="fillField('8')">8</button>
+		<button onClick="fillField('9')">9</button>
+		<button class="right" id = "mult" onClick="operation(this);">x</button><br>
+		<button onClick="fillField('4');">4</button>
+		<button onClick="fillField('5')">5</button>
+		<button onClick="fillField('6')">6</button>
+		<button class="right" id = "minus" onClick="operation(this);">-</button><br>
+
+		<button onClick="fillField('1')">1</button>
+
+		<button onClick="fillField('2')">2</button>
+		<button onClick="fillField('3')">3</button>
+		<button class="right" id="plus" onClick="operation(this);">+</button><br>
+		<button class="zero" onClick="fillField('0')">0</button>
+		<button>,</button>
+		<button class="right" onClick="result()">=</button>
+	</div>
+
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
