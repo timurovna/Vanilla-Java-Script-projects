@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validator</title>
+	<link rel='stylesheet' href="style.css">
+	
+</head>
+<body>
+	<img src="img/money.png">
+	<h1>Exchange Rate Calculator</h1>
+	<h5>Choose the currency and amount to get the exchange rate</h5>
+	<div class="calculation">
+		<div class="row">
+			<select id=currency1>
+				<option value="usd">USD</option>
+				<option value="kzt">KZT</option>
+				<option value="rub">RUB</option>
+				<option value="euro">EURO</option>
+			</select>
+			<input type="number" class="currency" placeholder="0" value="1" id="currency1-amount">
+		</div>
+		<div class="row">
+			<button class="btn" id="swap">Swap</button>
+			<p class="result" id="result">0</p>
+		</div>
+		<div class="row">
+			<select id=currency2>
+				<option value="usd">USD</option>
+				<option value="kzt">KZT</option>
+				<option value="rub">RUB</option>
+				<option value="euro">EURO</option>
+		</select>
+		<input type="number" placeholder="0" value="1" class="currency" id="currency2-amount">
+		</div>
+	</div>
+<script src="main.js"></script>
+</body>
+</html>
