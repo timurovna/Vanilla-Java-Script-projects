@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	border-radius: 5px;
+	background-color: grey;
+	border: solid 3px grey;
+	max-width: 800px;
+	padding-bottom: 100px;
+	padding-top: 40px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: Arial;
+	text-align: center;
+}
+.text{
+	align-items: center;
+}
+.text p{
+	font-size: 19px;
+}
+
+input{
+	border: solid 1px grey;
+	border-radius: 5px;
+	width: 250px;
+	height: 30px;
+	outline: none;
+}
+button{
+	cursor: pointer;
+	border: solid 1px grey;
+	color: #fff;
+	background-color: #2E8B57;
+	border-radius: 5px;
+	width: 50px;
+	height: 33px;
+	font-size: 18px;
+	outline: none;
+}
+.add-item{
+	text-align: center;
+}
+.list{
+	margin-top: 30px;
+}
+.item{
+	cursor: pointer;
+	border: solid 3px #fff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	height: 35px;
+	max-width: 500px;
+	margin: 0 auto 15px auto;
+	list-style-type: none;
+	font-size: 22px;
+	align-items: center;
+	padding-left: 20px;
+}
+.crossed p{
+	text-decoration: line-through;
+}
+.item h4{
+	cursor: pointer;
+	border: solid 1px #fff;
+	color: red;
+	background-color: #fff;
+	border-radius: 3px;
+	width: 30px;
+	height: 35px;
+	font-size: 30px;
+}
+span{
+	color: red;
+}
+.deleted{
+	display: none;
+}
+.done{
+	transition: background-color 1.5s ease;
+	background-color: #2E8B57;
+}
