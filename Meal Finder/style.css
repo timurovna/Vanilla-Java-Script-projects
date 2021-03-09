@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #2d2013;
+  	color: #fff;
+  	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	margin: 0;
+}
+.container{
+	text-align: center;
+}
+input{
+	width: 300px;
+	height: 35px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border: 1px solid #2d2013;
+}
+.search-btn{
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	margin-left: -8px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px solid #2d2013;
+}
+.random-btn{
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #2d2013;
+}
+h2{
+	margin-top: 60px;
+}
+.meals{
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: center;
+	margin: 0 auto;
+	max-width: 800px;
+	height: 100%;
+	text-align: center;
+}
+.meal{
+	cursor: pointer;
+	position: relative;
+	height: 180px;
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.meal img{
+	height: 180px;
+	width: 180px;
+	border: 2px solid #fff;
+}
+.meal-info{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: opacity 0.2s ease;
+	opacity: 0;
+}
+.meal:hover .meal-info{
+	opacity: 1;
+}
+#single-meal img{
+	width: 350px;
+	height: 350px;
+	border: 2px solid #fff;
+}
+.single-meal-info{
+	margin: 30px auto 40px auto;
+	border: 2px dotted orange;
+	width: 500px;
+	height: 100px;
+}
+#single-meal{
+	max-width: 550px;
+	margin: 0 auto;
+}
+.ingredients{
+  	max-width: 600px;
+  	margin: 0 auto;
+}
+.ingredients p{
+	border: 1px solid #ededed;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	display: inline-block;
+  	color: #2d2013;
+  	font-size: 12px;
+  	font-weight: bold;
+  	padding: 5px;
+  	margin: 0 5px 5px 0;
+}
+
+
+
+
