@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<link rel='stylesheet' href="style.css">
+</head>
+<body>
+<div class=container id="container">
+	<h1>Quiz</h1>
+	<div class="choose-category">
+		<label for="categories">Choose question category:</label>
+		<select id="categories" name="categories">
+			<option value="" selected disabled hidden>Choose any category</option>
+			<option value="9">General Knowledge</option>
+			<option value="10">Books</option>
+			<option value="12">Music</option>
+			<option value="28">Vehicles</option>
+			<option value="18">Computers</option>
+		</select>
+	</div>
+	<div class="questions" id="questions">
+	</div>
+	<div class="btn" id="btn"><button>Submit</button>
+	</div>
+	<div class="results" id="results">
+	</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
