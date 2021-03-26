@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<link rel='stylesheet' href="style.css">
+</head>
+<body>
+<div class=container id="container">
+	<h1 id="quiz">Quiz</h1>
+	<div class="choose-category" id="choose-category">
+		<label for="categories">Choose question category:</label>
+		<select id="categories" name="categories">
+			<option value="" selected disabled hidden>Choose any category</option>
+			<option value="9">General Knowledge</option>
+			<option value="10">Books</option>
+			<option value="12">Music</option>
+			<option value="28">Vehicles</option>
+			<option value="18">Computers</option>
+		</select>
+	</div>
+	<div class="question" id="question">
+	</div>
+	<div class="buttons">
+		<div class="btn" id="prev-btn">
+			<button>Previous</button>
+		</div>
+		<div class="btn" id="next-btn">
+			<button>Next</button>
+		</div>
+	</div>
+	<div class="results" id="results">
+	</div>
+	<div class="btn" id="take-again">
+			<button>Take again</button>
+	</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
