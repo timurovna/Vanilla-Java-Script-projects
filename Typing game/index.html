@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Typing game</title>
+	<link rel='stylesheet' href="style.css">
+</head>
+<body>
+<div class="header">
+	<label for="difficulty">Difficulty</label>
+	<select name="difficulty" id="difficulty">
+		<option>Easy</option>
+		<option>Medium</option>
+		<option>Hard</option>
+	</select>
+</div>
+<div class="main" id="main">
+	<div class="game-name">
+		<h2>Speed Typer</h2>
+	</div>
+	<div class="scores">
+		<p id='time'>Time left:</p>
+		<p id='score'>Score:</p>
+	</div>
+	<div class="typing">
+		<p>Type the following:</p>
+		<h1 id="word-to-type"></h1>
+		<input type="text" id="input">
+	</div>
+</div>
+<div class="game-over" id="game-over">
+	<h2>Time run out</h2>
+	<p id="final-score">Your final score is: </p>
+	<button id="reload">Reload</button>
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
